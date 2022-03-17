@@ -1,4 +1,4 @@
-const ErrorPage = () => {
+const Error = () => {
   // Don't forget to pass props above ^^ if you need them!
 
   return (
@@ -17,4 +17,4 @@ const ErrorPage = () => {
   )
 }
 
-export default ErrorPage
+export default Error

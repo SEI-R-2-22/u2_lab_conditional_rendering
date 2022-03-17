@@ -1,4 +1,4 @@
-const LandingPage = (props) => {
+const Landing = (props) => {
   // props have already been passed into this component for us here ^^, but have we passed any properties to this component yet?
   
   return (
@@ -11,4 +11,4 @@ const LandingPage = (props) => {
   )
 }
 
-export default LandingPage
+export default Landing
