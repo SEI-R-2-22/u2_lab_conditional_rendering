@@ -1,4 +1,4 @@
-const ErrorPage = () => {
+const ErrorPage = (props) => {
 
   return (
     <div>
@@ -9,7 +9,7 @@ const ErrorPage = () => {
       <main>
         <h1>Sorry!</h1>
         <p>You must be 18 or older to sign up for our site!</p>
-        <button>Back</button>
+        <button onClick={props.decrementPage}>Back</button>
       </main>
     </div>
   )

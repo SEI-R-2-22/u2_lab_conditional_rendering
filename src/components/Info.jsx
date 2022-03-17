@@ -1,5 +1,11 @@
 const Info = (props) => {
 
+  let isDisabled = true
+
+  if (props.name && props.email && props.age) {
+    isDisabled = false
+  }
+
   return (
     <div className="info">
       <h1>Information Form</h1>
@@ -34,8 +40,8 @@ const Info = (props) => {
       </form>
       <br></br>
       <div>
-        <button>Back</button>
-        <button onClick={props.incrementPage}>Next</button>
+        <button onClick={props.decrementPage} >Back</button>
+        <button onClick={isDisabled ? null : props.incrementPage}>Next</button>
       </div>
     </div>
   )

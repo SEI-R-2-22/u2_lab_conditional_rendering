@@ -1,4 +1,4 @@
-const Thanks = () => {
+const Thanks = (props) => {
   
   return (
     <div>
@@ -9,7 +9,7 @@ const Thanks = () => {
       />
       <br></br>
       <br></br>
-      <button>Back</button>
+      <button onClick={props.decrementPage}>Back</button>
     </div>
   )
 }
