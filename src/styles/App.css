@@ -1,7 +1,8 @@
 .App {
   text-align: center;
+  height: 100vh;
 }
 
-.error-image {
+image {
   width: 90vw;
 }
