@@ -1,4 +1,4 @@
-const LandingPage = (props) => {
+const Landing = (props) => {
   
   return (
     <div>
@@ -9,4 +9,4 @@ const LandingPage = (props) => {
   )
 }
 
-export default LandingPage
+export default Landing

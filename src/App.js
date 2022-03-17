@@ -1,6 +1,6 @@
 import './styles/App.css'
 import { useState } from 'react'
-import Form from './components/Form'
+import Home from './components/Home'
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState(0)
@@ -21,7 +21,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <Form
+      <Home
         currentPage={currentPage}
         name={formValues.name}
         age={formValues.age}
