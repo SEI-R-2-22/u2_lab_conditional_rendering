@@ -29,6 +29,11 @@ Using the provided components, create an environment where:
   </pre>
 </div>
 
+1. A landing page that welcomes the user to our site
+2. A Form that allows them to "sign up"
+3. If everything is filled out correctly, a Thank You page that thanks them for signing up
+4. An Error page that appears if the user does not meet the age requirement
+
 ## Notes/Tips
 
 - Take a look at what is already provided in the app. Using the state we have, how could we decide which components to render under certain conditions?
