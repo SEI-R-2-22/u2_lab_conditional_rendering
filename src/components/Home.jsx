@@ -3,7 +3,7 @@ import Thanks from './Thanks'
 import Error from './Error'
 import Landing from './Landing'
 
-const Form = (props) => {
+const Home = (props) => {
   let page
 
   if (props.currentPage === 1) {
@@ -17,4 +17,4 @@ const Form = (props) => {
   return <div>{page}</div>
 }
 
-export default Form
+export default Home
