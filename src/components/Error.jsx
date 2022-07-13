@@ -11,7 +11,7 @@ const Error = () => {
         <h1>Sorry!</h1>
         <p>You must be 18 or older to sign up for our site!</p>
         <button>Back</button>
-        // Don't forget to hook up an onClick property for this ^^ button if you want it to work!
+        {/* Don't forget to hook up an onClick property for this ^^ button if you want it to work! */}
       </main>
     </div>
   )

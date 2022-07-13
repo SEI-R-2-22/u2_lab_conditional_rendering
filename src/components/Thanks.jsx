@@ -11,7 +11,7 @@ const Thanks = () => {
       <br></br>
       <br></br>
       <button>Back</button>
-      // Don't forget to hook up an onClick property for this ^^ button if you want it to work!
+      {/* Don't forget to hook up an onClick property for this ^^ button if you want it to work! */}
     </div>
   )
 }
