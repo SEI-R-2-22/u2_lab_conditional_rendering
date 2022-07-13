@@ -17,9 +17,10 @@ In this lab, we'll be working with a provided sign-up form to conditionally rend
 Using the provided components, create an environment where:
 
 - The user will go through three "pages" of a sign up process (Landing, Form, Thanks OR Error)
-- The buttons on each page will navigate the user through the process
-- The `Next` button is not clickable unless all 3 fields on the form have user input
-- The `Thanks` component renders when a user over the age of 18 signs up OR the `Error` component renders when a user under the age of 18 tries to sign up
+    - Make sure that the first page that is rendered is the Landing page.
+    - After clicking on the "Sign Up" button the Form page should be rendered.
+    - The `Next` button on the Form page should not clickable unless all 3 fields on the form have user input.
+    - The `Thanks` component renders when a user over the age of 18 signs up OR the `Error` component renders when a user under the age of 18 tries to sign up.
 
 ## Notes/Tips
 
