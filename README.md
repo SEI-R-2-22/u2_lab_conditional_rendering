@@ -21,6 +21,19 @@ Using the provided components, create an environment where:
 - The `Next` button is not clickable unless all 3 fields on the form have user input
 - The `Thanks` component renders when a user over the age of 18 signs up OR the `Error` component renders when a user under the age of 18 tries to sign up
 
+## What We're Trying to Build
+
+<div align="center">
+  <pre>
+    <img src="./public/images/landing.png" height="500" />&nbsp;&nbsp;&nbsp;<img src="./public/images/form.png" height="500" />&nbsp;&nbsp;&nbsp;<img src="./public/images/thanks.png" height="500" />&nbsp;&nbsp;&nbsp;<img src="./public/images/error.png" height="500" />
+  </pre>
+</div>
+
+1. A landing page that welcomes the user to our site
+2. A Form that allows them to "sign up"
+3. If everything is filled out correctly, a Thank You page that thanks them for signing up
+4. An Error page that appears if the user does not meet the age requirement
+
 ## Notes/Tips
 
 - Take a look at what is already provided in the app. Using the state we have, how could we decide which components to render under certain conditions?
